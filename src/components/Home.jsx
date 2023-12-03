@@ -11,8 +11,8 @@ const Home = () => {
   return (
     <div className="xl:flex lg:flex items-center xl:h-3/3 bg-[#0A1828] h-screen  border-b-2 border-[#202f3b]">
 {/* Levi container */}
-  <div className="xl:w-1/2 lg:w-1/2 xl:mb-25 lg:mb-20  md:w-full sm:w-full bg-[#0A1828] p-8 text-center  ">
-    <p className='xl:my-5 xl:text-4xl xl:text-left lg:text-left lg:text-4xl sm:text-3xl text-[#d6ad81]'>Hi, I'm</p>
+  <div className="xl:w-1/2 lg:w-1/2 xl:mb-25 lg:mb-20  md:w-full sm:w-full bg-[#0A1828] p-8 text-center">
+    <p className='xl:my-5 xl:text-4xl xl:text-left lg:text-left lg:text-4xl sm:text-3xl md:text-9xl text-[#d6ad81]'>Hi, I'm</p>
         <div className='xl:my-5 xl:text-left lg:text-left'>
         <TypeAnimation className='text-[#DEBD99] font-medium lg:text-6xl md:text-4xl sm:text-4xl'
         sequence={[
@@ -25,7 +25,7 @@ const Home = () => {
         cursor={false} 
         /></div>
         {showSecondAnimation && (<div className='xl:my-5 lg:text-left xl:text-lg xl:text-left sm:text-2xl sm:text-center'>
-        <TypeAnimation className='text-[#DEBD99] lg:text-7xl md:text-5xl sm:text-5xl mt-5'
+        <TypeAnimation className='text-[#d5f7e6] lg:text-7xl md:text-5xl sm:text-4xl mt-5'
         sequence={[
         'Frontend Developer',
         1500,]}

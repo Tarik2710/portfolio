@@ -7,7 +7,7 @@ import { MotionAnimate } from 'react-motion-animate'
 
 const Projects = () => {
   return (
-    <div className="w-full min-h-screen bg-[#0A1828] text-[#DEBD99] p-6">
+    <div className="w-full min-h-screen bg-[#0A1828] text-[#d5f7e6] p-6">
      <MotionAnimate
                           animation='scrollOpacity'
                           ease={[0.10, 0.67, 0.97, -0.48]}
