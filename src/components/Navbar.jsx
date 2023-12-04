@@ -20,7 +20,7 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex text-2xl font-semibold'>
         <li className='hover:text-[#bc6c25]'>
-          <Link to='proba' smooth={true} duration={500}>
+          <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
@@ -30,12 +30,12 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='hover:text-[#bc6c25]'>
-          <Link to='skills' smooth={true} duration={500}>
+          <Link to='portfolio' smooth={true} duration={500}>
             Portfolio
           </Link>
         </li>
         <li className='hover:text-[#bc6c25]'>
-          <Link to='work' smooth={true} duration={500}>
+          <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -54,30 +54,24 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#0A1828] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl hover:text-[#bc6c25]'>
+        <li className='py-6 text-4xl hover:bg-[#2d5252]'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl  hover:text-[#bc6c25]'>
+        <li className='py-6 text-4xl  hover:bg-[#2d5252]'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl hover:text-[#bc6c25]'>
+        <li className='py-6 text-4xl hover:bg-[#2d5252]'>
           {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
+          <Link onClick={handleClick} to='portfolio' smooth={true} duration={500}>
+            Portfolio
           </Link>
         </li>
-        <li className='py-6 text-4xl hover:text-[#bc6c25]'>
-          {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li className='py-6 text-4xl hover:text-[#bc6c25]'>
+        <li className='py-6 text-4xl hover:bg-[#2d5252]'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact

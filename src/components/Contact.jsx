@@ -1,21 +1,38 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
+import { MotionAnimate } from 'react-motion-animate'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+library.add(faEnvelope, faPhone)
+
 
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full min-h-screen bg-[#0A1828] p-6 flex justify-center'>
-        <form method='POST' action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c" className='flex flex-col max-w-[600px] w-full'>
+    <div className='bg-[#0A1828]' name='contact'>
+    <MotionAnimate
+                        animation='fadeInUp'
+                        reset={true}
+                        distance={1}
+                        delay={1}
+                        speed={1}>
+    <div className='w-full min-h-screen flex justify-center'> 
+    
+        <form method='POST' action="https://getform.io/f/4ec4b650-7aa1-474c-969c-a66d556454d2" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold text-[#DEBD99]'>Contact</p>
-                <p className='text-[#DEBD99] py-4 flex items-center font-extrabold'> <FontAwesomeIcon icon="fa-solid fa-inbox" className="text-4xl flex mr-3" />  tarik.bijedic@yahoo.com
-                </p>
+                <h3 className=' text-[#d5f7e6] text-4xl font-extrabold uppercase mb-5 md:mt-12 md:text-7xl sm:text-3xl flex items-center justify-center shadow-lg'>Contact</h3>
+                <p className='text-[#DEBD99] py-4 flex items-center font-extrabold text-xl'> <FontAwesomeIcon icon="fa-solid fa-envelope" className="text-4xl flex mr-3 font-semibold"/> <button onClick={() => window.location = 'mailto:tarik.bijedic@yahoo.com'}>tarik.bijedic@yahoo.com</button></p>
+                <p className='text-[#DEBD99] py-4 font-extrabold text-xl items-center flex'> <FontAwesomeIcon icon="fa-solid fa-phone" className="text-4xl mr-3  py-2 font-semibold"/>065/646-550</p>
+                
             </div>
             <input className='bg-[#f2f1df] p-2' type="text" placeholder='Name' name='name' />
             <input className='my-4 p-2 bg-[#f2f1df]' type="email" placeholder='Email' name='email' />
             <textarea className='bg-[#f2f1df] p-2' name="message" rows="10" placeholder='Message'></textarea>
-            <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
+            <button className='bg-[#dca010] hover:bg-[#2d5252]  text-black uppercase font-black py-2 px-4 my-8 mx-auto flex items-center'>SUBMIT</button>
         </form>
+    </div>
+        </MotionAnimate>
+    
     </div>
   )
 }
