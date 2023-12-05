@@ -12,7 +12,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className=' w-full h-[90px] flex justify-between items-center px-5   bg-[#0A1828] text-[#178582] border-b-4 border-[#202f3b] p-4'>
+    <div className=' w-full h-[90px] flex justify-between items-center px-5   bg-[#181818] text-[#edf2f4] border-b-4 border-[#4b4f58] p-4'>
       <div className='sm:w-40'>
         <img src={Logo} alt='Logo' className='object-contain w-16 pt-2 mb-2 hover:scale-105'/>
       </div>

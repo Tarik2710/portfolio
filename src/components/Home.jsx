@@ -9,12 +9,12 @@ const Home = () => {
       setShowSecondAnimation(true);
     }, 1000);
   return (
-    <div name='home' className="xl:flex lg:flex items-center xl:h-3/3 bg-[#0A1828] xl:h-screen  lg:h-screen border-b-2 border-[#202f3b]">
+    <div name='home' className="xl:flex lg:flex items-center xl:h-3/3 bg-[#181818] xl:h-screen  lg:h-screen border-b-2 border-[#4b4f58] ">
 {/* Levi container */}
-  <div className="xl:w-1/2 lg:w-1/2 xl:mb-25 lg:mb-20  md:w-full sm:w-full bg-[#0A1828] p-8 text-center">
-    <p className='xl:my-5 xl:text-4xl xl:text-left lg:text-left lg:text-4xl sm:text-3xl md:text-4xl text-[#d6ad81]'>Hi, I'm</p>
+  <div className="xl:w-1/2 lg:w-1/2 xl:mb-25 lg:mb-20  md:w-full sm:w-full  p-8 text-center">
+    <p className='xl:my-5 xl:text-4xl xl:text-left lg:text-left lg:text-4xl sm:text-3xl md:text-4xl text-[#f5f3f4]'>Hi, I'm</p>
         <div className='xl:my-5 xl:text-left lg:text-left'>
-        <TypeAnimation className='text-[#DEBD99] font-medium lg:text-6xl md:text-4xl sm:text-4xl'
+        <TypeAnimation className='text-[#f5f3f4] font-medium lg:text-6xl md:text-4xl sm:text-4xl'
         sequence={[
         'Bijedić Tarik',
         1500,]}
@@ -25,7 +25,7 @@ const Home = () => {
         cursor={false} 
         /></div>
         {showSecondAnimation && (<div className='xl:my-5 lg:text-left xl:text-lg xl:text-left sm:text-2xl sm:text-center'>
-        <TypeAnimation className='text-[#d5f7e6] lg:text-7xl md:text-5xl sm:text-4xl mt-5'
+        <TypeAnimation className='text-[#f5f3f4] lg:text-7xl md:text-5xl sm:text-4xl mt-5'
         sequence={[
         'Frontend Developer',
         1500,]}

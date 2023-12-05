@@ -6,13 +6,13 @@ import { MotionAnimate } from 'react-motion-animate'
 
 const About = () => {
   return (
-    <div className='bg-[#0A1828]' name='about'>
+    <div className='bg-[#181818]' name='about'>
     
       <MotionAnimate
                           animation='scrollOpacity'
                           ease={[0.17, 0.67, 0.97, -0.48]}
                           scrollPositions={[0.2, 0.5, 0.6, 0.8]}>
-    <div className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center bg-[#0A1828] relative overflow-hidden shadow-md  border-b-2 border-[#202f3b]">
+    <div className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center bg-[#181818] relative overflow-hidden shadow-md border-b-4 border-[#4b4f58]">
     {/* Levi container - Slika u kartici */}
 <div className="md:w-1/2 relative z-10 p-8 ">
       <div className="bg-dda15e rounded-lg overflow-hidden border-10 shadow-2xl shadow-black">
@@ -25,10 +25,10 @@ const About = () => {
     </div> 
 
       {/* Desni container - Tekst i Button */}
-      <div className="md:w-1/2 xl:p-8 lg:p-8 md:p-8 sm:p-4 text-[#d5f7e6] font-medium text-center relative z-20  ">
+      <div className="md:w-1/2 xl:p-8 lg:p-8 md:p-8 sm:p-4 text-[#f5f3f4] font-medium text-center relative z-20  ">
        <h2 className="text-4xl md:text-7xl sm:text-3xl font-bold lg:mb-10 sm:mb-5  shadow-lg ">ABOUT ME</h2>
         <p className="xl:mb-10 lg:mb-10 text-justify text-xl font-bold sm:text-base sm:mb-5 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <button className="bg-[#dca010] hover:bg-[#2d5252] text-black uppercase font-black py-2 px-4 rounded shadow-lg hover:shadow-2xl sm:mb-16 sm:mt-10 lg:mt-5">
+        <button className="bg-[#ffffff] hover:bg-[#2d5252] text-black uppercase font-black py-2 px-4 rounded shadow-lg hover:shadow-2xl sm:mb-16 sm:mt-10 lg:mt-5">
           See My CV
         </button>
       </div>
