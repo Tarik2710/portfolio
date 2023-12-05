@@ -23,7 +23,7 @@ const Projects = () => {
                           ease={[0.75, 0.45, 0.53, 0.94]}
                           reset={true}>
       <div className="flex flex-wrap justify-center overflow-hidden xxl:mx-[300px] ultraxl:mx-[500px] xl:mx-[100px] lg:mx-0">
-        <div className="bg-[#e50914] rounded-md shadow-2xl p-8 mb-8 mx-auto overflow-hidden hover:scale-105 transition duration-500 border-l-2 border-2  border-solid border-[#ffff] mt-3">
+        <div className="bg-gradient-to-br from-gray-700 via-gray-900 to-black rounded-md shadow-2xl p-8 mb-8 mx-auto overflow-hidden hover:scale-105 transition duration-500 border-l-2 border-2  border-solid border-[#ffff] mt-3">
           {/* Gornji deo slike (ceo gornji deo) */}
           <div className="mb-4">
             <img
@@ -43,7 +43,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-[#e50914]  rounded-md shadow-2xl p-8 mb-8 mx-auto overflow-hidden hover:scale-105 transition duration-500 border-1 border-solid border-[#ffff] mt-3 border-2">
+        <div className="bg-gradient-to-l from-gray-700 via-gray-900 to-black rounded-md shadow-2xl p-8 mb-8 mx-auto overflow-hidden hover:scale-105 transition duration-500 border-1 border-solid border-[#ffff] mt-3 border-2">
           {/* Gornji deo slike (ceo gornji deo) */}
           <div className="mb-4">
             <img
@@ -63,7 +63,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-[#e50914]   rounded-md shadow-2xl p-8 mb-8 mx-auto overflow-hidden hover:scale-105 transition duration-500 border-1 border-solid border-[#ffff] mt-3 border-r-2 border-2">
+        <div className="bg-gradient-to-tl from-gray-700 via-gray-900 to-black  rounded-md shadow-2xl p-8 mb-8 mx-auto overflow-hidden hover:scale-105 transition duration-500 border-1 border-solid border-[#ffff] mt-3 border-r-2 border-2">
           {/* Gornji deo slike (ceo gornji deo) */}
           <div className="mb-4">
             <img
@@ -83,7 +83,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-[#e50914] rounded-md shadow-2xl p-8 mb-8 mx-auto overflow-hidden hover:scale-105 transition duration-500 border-l-2 border-2 border-solid border-[#ffff]">
+        <div className="bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black rounded-md shadow-2xl p-8 mb-8 mx-auto overflow-hidden hover:scale-105 transition duration-500 border-l-2 border-2 border-solid border-[#ffff]">
           {/* Gornji deo slike (ceo gornji deo) */}
           <div className="mb-4">
             <img
@@ -102,7 +102,7 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <div className="bg-[#e50914]   rounded-md shadow-2xl p-8 mb-8 mx-auto overflow-hidden hover:scale-105 transition duration-500 border-solid border-[#ffff] border-2">
+        <div className="bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black  rounded-md shadow-2xl p-8 mb-8 mx-auto overflow-hidden hover:scale-105 transition duration-500 border-solid border-[#ffff] border-2">
           {/* Gornji deo slike (ceo gornji deo) */}
           <div className="mb-4">
             <img
@@ -121,7 +121,7 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <div className="bg-[#e50914]  rounded-md shadow-2xl p-8 mb-8 mx-auto overflow-hidden hover:scale-105 transition duration-500 border-r-2 border-2 border-solid border-[#ffff]">
+        <div className="bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black  rounded-md shadow-2xl p-8 mb-8 mx-auto overflow-hidden hover:scale-105 transition duration-500 border-r-2 border-2 border-solid border-[#ffff]">
           {/* Gornji deo slike (ceo gornji deo) */}
           <div className="mb-4">
             <img
