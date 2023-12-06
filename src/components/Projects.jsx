@@ -37,7 +37,7 @@ const Projects = () => {
             <p className="text-lg mb-4 text-[#ffff] max-w-[300px] font-medium text-justify">
               John Doe Portfolio, use plain HTML and CSS. This is a long paragraph to demonstrate text wrapping.
             </p>
-            <a href="https://github.com/Tarik2710/johndoeportfolio" target="_blank"><button className="bg-[#ffff] hover:bg-[#2d5252]  text-black uppercase font-black py-2 px-4 rounded mx-auto block overflow-hidden hover:scale-105 transition duration-500 ">
+            <a href="https://github.com/Tarik2710/johndoeportfolio" target="_blank"  rel="noreferrer" ><button className="bg-[#ffff] hover:bg-[#2d5252]  text-black uppercase font-black py-2 px-4 rounded mx-auto block overflow-hidden hover:scale-105 transition duration-500 ">
               SEE MORE
             </button></a>
           </div>
