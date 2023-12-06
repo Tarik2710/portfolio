@@ -31,9 +31,7 @@ const About = () => {
       <div className="md:w-1/2 xl:p-8 lg:p-8 md:p-8 sm:p-4 text-[#f5f3f4] font-medium text-center relative z-20  ">
        <h2 className="text-4xl md:text-7xl sm:text-3xl font-bold lg:mb-10 sm:mb-5  shadow-lg ">ABOUT ME</h2>
         <p className="xl:mb-10 lg:mb-10 text-justify text-xl font-bold sm:text-base sm:mb-5 ">Hello, I am  Tarik Bijedić. I am currently a junior web developer. My knowledge is based on HTML, CSS and JAVASCRIPT, proficient in using frameworks such as Tailwind, Bootstrap, and ReactJS. What motivated my journy in IT world was wish, to understand mechanics behind what happens when we interact with a digital interface. One of the appealing aspects of jobs in this field is the potential for a substantial salary. My main goal is making dynamic and funcional pages, providing users with great online experience. I have hands-on experience with Content Management Systems (CMS) and have successfully worked with platforms like WordPress and PrestaShop. What makes this world more intriguing is the fact that there is allways more to learn, and by that progress and engagement in this field is undeniable to me.</p>
-        <a href={Pdf} without rel="noopener noreferrer" target="_blank"><button trailingIcon="picture_as_pdf" label="Resume" className="bg-[#ffffff] hover:bg-[#2d5252] text-black uppercase font-black py-2 px-4 rounded shadow-lg hover:shadow-2xl sm:mb-16 sm:mt-10 lg:mt-5">
-          See My CV
-        </button></a>
+        
        
       </div>
 
