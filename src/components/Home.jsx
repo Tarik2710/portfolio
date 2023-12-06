@@ -12,7 +12,7 @@ const Home = () => {
     <div name='home' className="xl:flex lg:flex items-center xl:h-3/3 bg-[#181818] xl:h-screen  lg:h-screen border-b-2 border-[#4b4f58] ">
 {/* Levi container */}
   <div className="xl:w-1/2 lg:w-1/2 xl:mb-25 lg:mb-20  md:w-full sm:w-full  p-8 text-center">
-    <p className='xl:my-5 xl:text-4xl xl:text-left lg:text-left lg:text-4xl sm:text-3xl md:text-4xl text-[#f5f3f4]'>Hi, I'm</p>
+    <p className='xl:my-5 xl:text-4xl xl:text-left lg:text-left lg:text-4xl sm:text-3xl md:text-4xl text-[#f5f3f4] font-medium'>Hi, I'm</p>
         <div className='xl:my-5 xl:text-left lg:text-left'>
         <TypeAnimation className='text-[#f5f3f4] font-medium lg:text-6xl md:text-4xl sm:text-4xl'
         sequence={[

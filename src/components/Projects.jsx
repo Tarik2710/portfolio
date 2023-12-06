@@ -18,7 +18,7 @@ const Projects = () => {
         My Portfolio
       </h2>
       <MotionAnimate
-                          delay={0.4}
+                          delay={0.1}
                           speed={2}
                           ease={[0.75, 0.45, 0.53, 0.94]}
                           reset={true}>
