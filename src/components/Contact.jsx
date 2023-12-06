@@ -32,7 +32,6 @@ const Contact = () => {
         </form>
     </div>
         </MotionAnimate>
-    
     </div>
   )
 }
