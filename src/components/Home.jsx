@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import computerUsers from '../assets/users.png'
 import { TypeAnimation } from 'react-type-animation';
+
 
 const Home = () => {
     const [showSecondAnimation, setShowSecondAnimation] = useState(false);
@@ -14,9 +15,10 @@ const Home = () => {
   <div className="xl:w-1/2 lg:w-1/2 xl:mb-25 lg:mb-20  md:w-full sm:w-full  p-8 text-center">
     <p className='xl:my-5 xl:text-4xl xl:text-left lg:text-left lg:text-4xl sm:text-3xl md:text-4xl text-[#f5f3f4] font-medium'>Hi, I'm</p>
         <div className='xl:my-5 xl:text-left lg:text-left'>
+        
         <TypeAnimation className='text-[#f5f3f4] font-medium lg:text-6xl md:text-4xl sm:text-[33px]'
         sequence={[
-        'Bijedić Tarik',
+        'Bijedić Tarik', 
         1500,]}
          wrapper="span"
         speed={50}
@@ -33,9 +35,11 @@ const Home = () => {
         speed={10}
         style={{display: 'inline-block'}}
          cursor={false}
-        repeat={1}/></div> )}
+        repeat={1}/>
+        
+        </div>)}
         </div>
-  
+    
 
   {/* Desni container */}
   <div className="xl:w-1/2 lg:w-1/2 max-h-1/2">
@@ -46,6 +50,8 @@ const Home = () => {
       className="object-cover max-h-1/2 xxl:w-[800px] xxl:mx-auto lg:w-[700px] lg:mx-auto md:mx-auto sm:w-[500px] sm:mx-auto xl:ml-10 md:h-full"
     />
   </div>
+
+  
 </div>
   )
 }

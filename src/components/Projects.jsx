@@ -37,7 +37,7 @@ const Projects = () => {
             <p className="text-lg text-[#ffff] max-w-[300px] mb-10 font-medium text-justify">
               John Doe Portfolio, use plain HTML and CSS. 
             </p>
-            <a href="https://github.com/Tarik2710/johndoeportfolio" target="_blank"  rel="noreferrer" ><button className="bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800  text-black uppercase font-black py-2 px-4 rounded mx-auto block overflow-hidden transition duration-700 ease-in-out hover:scale-105 ">
+            <a href="https://github.com/Tarik2710/johndoeportfolio" target="_blank"  rel="noreferrer" ><button className="bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800  hover:text-white text-black uppercase font-black py-2 px-4 rounded mx-auto block overflow-hidden transition duration-700 ease-in-out hover:scale-105 ">
               SEE MORE
             </button></a>
           </div>
@@ -58,7 +58,7 @@ const Projects = () => {
               Relvise Finance and Consultancy Solution, use HTML CSS and Bootstrap.
             </p>
             <a href="https://github.com/Tarik2710/relvise" target="_blank"  rel="noreferrer" >
-            <button className="bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800  text-black uppercase font-black py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105">
+            <button className="bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800  text-black hover:text-white uppercase font-black py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105">
               SEE MORE
             </button></a>
           </div>
@@ -79,7 +79,7 @@ const Projects = () => {
               Primax digital agency, use HTML CSS and Bootstrap.
             </p>
             <a href="https://github.com/Tarik2710/primax" target="_blank"  rel="noreferrer" >
-            <button className="bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800  text-black uppercase font-black  mt-10 py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105 ">
+            <button className="bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800  text-black hover:text-white uppercase font-black  mt-10 py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105 ">
               SEE MORE
             </button></a>
           </div>
@@ -100,7 +100,7 @@ const Projects = () => {
               Travel Star Agency use HTML CSS and Bootstrap.
             </p>
             <a href="https://github.com/Tarik2710/travelstar" target="_blank"  rel="noreferrer" >
-            <button className="bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800  text-black uppercase font-black py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105">
+            <button className="mt-5 bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800 hover:text-white text-black uppercase font-black py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105">
               SEE MORE
             </button></a>
           </div>
@@ -120,7 +120,7 @@ const Projects = () => {
             Architecture Websites Examples use HTML, CSS and Bootstrap
             </p>
             <a href="https://github.com/Tarik2710/lorem" target="_blank"  rel="noreferrer" >
-            <button className="bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800  text-black uppercase font-black py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105">
+            <button className=" mt-5 bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800 hover:text-white  text-black uppercase font-black py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105">
               SEE MORE
             </button></a>
           </div>
@@ -140,7 +140,7 @@ const Projects = () => {
               Digital Agency, used HTML, CSS, Bootstrap and JS for animate text.
             </p>
             <a href="https://github.com/Tarik2710/digital" target="_blank"  rel="noreferrer" >
-            <button className="bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800  text-black uppercase font-black py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105 ">
+            <button className="mt-5 bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800 hover:text-white text-black uppercase font-black py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105 ">
               SEE MORE
             </button></a>
           </div>

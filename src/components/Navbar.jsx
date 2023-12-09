@@ -19,23 +19,23 @@ const Navbar = () => {
 
       {/* menu */}
       <ul className='hidden md:flex text-2xl font-semibold'>
-        <li className='hover:text-sky-400 active:text-to-blue-800 transition duration-500 ease-in-out hover:scale-110 '>
+        <li className='hover:text-sky-400 active:text-to-blue-800 transition duration-500 ease-in-out hover:scale-110 px-4'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
 
-        <li className=' hover:text-sky-400 active:text-to-blue-800 transition duration-500 ease-in-out hover:scale-110 '>
+        <li className=' hover:text-sky-400 active:text-to-blue-800 transition duration-500 ease-in-out hover:scale-110 px-4 '>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='hover:text-sky-400 active:text-to-blue-800 transition duration-500 ease-in-out hover:scale-110 '>
+        <li className='hover:text-sky-400 active:text-to-blue-800 transition duration-500 ease-in-out hover:scale-110 px-4'>
           <Link to='portfolio' smooth={true} duration={500}>
             Portfolio
           </Link>
         </li>
-        <li className='hover:text-sky-400 active:text-to-blue-800 transition duration-500 ease-in-out hover:scale-110'>
+        <li className='hover:text-sky-400 active:text-to-blue-800 transition duration-500 ease-in-out hover:scale-110 px-4'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10 text-3xl font-semibold hover:text-sky-400 active:text-to-blue-800 transition duration-500 ease-in-out hover:scale-110'>
+      <div onClick={handleClick} className='md:hidden z-10 text-3xl font-semibold hover:text-sky-400  cursor-pointer active:text-to-blue-800 transition duration-500 ease-in-out hover:scale-110'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
