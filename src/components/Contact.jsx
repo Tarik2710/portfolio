@@ -3,7 +3,6 @@ import { MotionAnimate } from 'react-motion-animate'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import Icon from './Icon'
 library.add(faEnvelope, faPhone)
 
 
