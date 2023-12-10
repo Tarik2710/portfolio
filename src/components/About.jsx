@@ -1,9 +1,6 @@
 import React from 'react';
 import osoba from '../assets/covjek.jpg';
-import { motion, AnimatePresence } from "framer-motion"
 import Pdf from '../assets/cv.pdf';
-
-
 
 
 
