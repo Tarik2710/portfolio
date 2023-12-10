@@ -30,6 +30,7 @@ const Projects = () => {
               src={pageone}
               alt="Slika"
               className="object-cover w-full h-40 rounded-t-md cursor-pointer"
+              loading="lazy"
             />
           </div>
           
@@ -50,6 +51,7 @@ const Projects = () => {
               src={pagetwo}
               alt="Slika"
               className="object-cover w-full h-40 rounded-t-md"
+              loading="lazy"
             />
           </div>
           
@@ -71,6 +73,7 @@ const Projects = () => {
               src={pagethree}
               alt="Slika"
               className="object-cover w-full h-40 rounded-t-md  cursor-pointer"
+              loading="lazy"
             />
           </div>
         
@@ -92,6 +95,7 @@ const Projects = () => {
               src={pagefour}
               alt="Slika"
               className="w-full h-40 rounded-t-md cursor-pointer border-spacing-10"
+              loading="lazy"
             />
           </div>
          
@@ -112,6 +116,7 @@ const Projects = () => {
               src={pagesix}
               alt="Slika"
               className="object-cover w-full h-40 rounded-t-md  cursor-pointer border-spacing-10"
+              loading="lazy"
             />
           </div>
      
@@ -132,6 +137,7 @@ const Projects = () => {
               src={pagefive}
               alt="Slika"
               className="object-cover w-full h-40 rounded-t-md cursor-pointer border-spacing-10"
+              loading="lazy"
             />
           </div>
 
