@@ -1,10 +1,10 @@
 import React from 'react';
-import pageone from '../assets/port1.png';
-import pagetwo from '../assets/pagefive.png';
-import pagethree from '../assets/pagethree.png';
-import pagefour from '../assets/pagefour.png';
-import pagefive from '../assets/pagetwo.png';
-import pagesix from '../assets/pagesix.png';
+import pageone from '../assets//img/port1.webp';
+import pagetwo from '../assets/img/relvise.webp';
+import pagethree from '../assets/img/primax.webp';
+import pagefour from '../assets/img/travel.webp';
+import pagefive from '../assets/img/agency.webp';
+import pagesix from '../assets/img/univ.webp';
 import { MotionAnimate } from 'react-motion-animate'
 
 const Projects = () => {
@@ -35,7 +35,7 @@ const Projects = () => {
           
           <div>
             <p className="text-lg text-[#ffff] max-w-[300px] mb-10 font-medium text-justify">
-              John Doe Portfolio, use plain HTML and CSS. 
+              John Doe Portfolio, used plain HTML and CSS. 
             </p>
             <a href="https://github.com/Tarik2710/johndoeportfolio" target="_blank"  rel="noreferrer" ><button className="bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800  hover:text-white text-black uppercase font-black py-2 px-4 rounded mx-auto block overflow-hidden transition duration-700 ease-in-out hover:scale-105 ">
               SEE MORE
@@ -55,7 +55,7 @@ const Projects = () => {
           
           <div>
             <p className="text-lg mb-4  font-medium max-w-[300px] text-justify ">
-              Relvise Finance and Consultancy Solution, use HTML CSS and Bootstrap.
+              Relvise Finance and Consultancy Solution, used HTML CSS and Bootstrap.
             </p>
             <a href="https://github.com/Tarik2710/relvise" target="_blank"  rel="noreferrer" >
             <button className="bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800  text-black hover:text-white uppercase font-black py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105">
@@ -76,7 +76,7 @@ const Projects = () => {
         
           <div>
             <p className="text-lg mb-4  font-medium max-w-[300px] text-justify">
-              Primax digital agency, use HTML CSS and Bootstrap.
+              Primax digital agency, used HTML CSS and Bootstrap.
             </p>
             <a href="https://github.com/Tarik2710/primax" target="_blank"  rel="noreferrer" >
             <button className="bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800  text-black hover:text-white uppercase font-black  mt-10 py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105 ">
@@ -97,7 +97,7 @@ const Projects = () => {
          
           <div>
             <p className="text-lg mb-4  font-medium max-w-[300px] text-justify ">
-              Travel Star Agency use HTML CSS and Bootstrap.
+              Travel Star Agency used HTML CSS and Bootstrap.
             </p>
             <a href="https://github.com/Tarik2710/travelstar" target="_blank"  rel="noreferrer" >
             <button className="mt-5 bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800 hover:text-white text-black uppercase font-black py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105">
@@ -117,7 +117,7 @@ const Projects = () => {
      
           <div>
             <p className="text-lg mb-4  font-medium max-w-[300px] text-justify">
-            Architecture Websites Examples use HTML, CSS and Bootstrap
+            Architecture Websites Examples used HTML, CSS and Bootstrap
             </p>
             <a href="https://github.com/Tarik2710/lorem" target="_blank"  rel="noreferrer" >
             <button className=" mt-5 bg-[#ffff] hover:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-400 to-blue-800 hover:text-white  text-black uppercase font-black py-2 px-4 rounded mx-auto block transition duration-700 ease-in-out hover:scale-105">

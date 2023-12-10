@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import computerUsers from '../assets/users.png'
+import computerUsers from '../assets/img/users.webp';
 import { TypeAnimation } from 'react-type-animation';
 
 

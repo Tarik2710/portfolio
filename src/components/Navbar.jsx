@@ -3,7 +3,7 @@ import {
   FaBars,
   FaTimes,
 } from 'react-icons/fa';
-import Logo from '../assets/btl.png';
+import Logo from '../assets//img/btl.webp';
 import { Link } from 'react-scroll';
 
 
