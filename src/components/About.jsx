@@ -1,5 +1,5 @@
 import React from 'react';
-import osoba from '../assets/covjek.jpg';
+import osoba from '../assets/img/covjek.jpg';
 import Pdf from '../assets/cv.pdf';
 
 
