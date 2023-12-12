@@ -13,7 +13,7 @@ const Card = ({ description, link, image }) => {
       <img
         src={image}
         alt="Slika"
-        className="object-cover w-full h-40 rounded-t-md cursor-pointer"
+        className="object-cover w-full h-40 rounded-t-md cursor-pointer min-w-[200px] w-min"
         loading="lazy"
       />
     </div>
