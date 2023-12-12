@@ -12,12 +12,12 @@ const Card = ({ description, link, image }) => {
 from-gray-700 flex flex-col via-gray-900 to-black rounded-md p-8 mb-8
 mx-auto overflow-hidden hover:scale-105 transition duration-500 mt-3
 hover:bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))]
-hover:duration-1000 ">
+hover:duration-1000">
     <div className="mb-4">
       <img
         src={image}
         alt="Slika"
-        className="object-cover  sm:min-w-[200px]  w-full h-40 rounded-t-md cursor-pointer min-w-[300px]"
+        className="object-cover  w-full h-40 rounded-t-md cursor-pointer sm:w-full sm:h-auto"
         loading="lazy"
       />
     </div>
