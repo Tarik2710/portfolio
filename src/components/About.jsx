@@ -30,7 +30,7 @@ shadow-black"
 
 
           <div className="md:w-1/2  xl:p-8 lg:p-8 md:p-8 sm:p-4
-text-[#f5f3f4] font-medium text-center relative z-20 xxl:mt-3 xl:mt-14
+text-[#f5f3f4] font-medium text-center relative z-20 xxl:mt-3 xl:mt-10
 md:mt-16  lg:mt-5 sm:mt-0 ">
             <h2 className="text-4xl md:text-7xl sm:text-3xl font-bold
 lg:mb-10 sm:mb-5 shadow-lg xxl:text-4xl xl:text-6xl ultraxl:text-6xl
