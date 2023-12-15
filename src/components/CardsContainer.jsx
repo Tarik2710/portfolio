@@ -17,7 +17,7 @@ hover:duration-1000 ">
       <img
         src={image}
         alt="Slika"
-        className="object-cover  sm:min-w-[200px] sm:w-full sm:object-fill  w-full h-40 rounded-t-md cursor-pointer min-w-[300px]"
+        className="object-cover  sm:min-w-[200px] sm:w-full sm:object-fill  w-full h-40 rounded-t-md min-w-[300px]"
         loading="lazy"
       />
     </div>
