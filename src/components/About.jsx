@@ -47,7 +47,7 @@ substantial salary. My main goal is making dynamic and funcional pages,
 providing users with great online experience. I have hands-on experience
 with Content Management Systems (CMS) and have successfully worked with
 platforms like WordPress and PrestaShop. What makes this world more
-intriguing is the fact that there is allways more to learn, and by that
+intriguing is the fact that there is always more to learn, and by that
 progress and engagement in this field is undeniable to me.</p>
             <a href={Pdf} without rel="noopener noreferrer"
 target="_blank"><button trailingIcon="picture_as_pdf" label="Resume"
